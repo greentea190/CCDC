@@ -5,8 +5,10 @@ This repository consists of several directories that contain scripts for configu
 For more information about the **Collegiate Cyber Defense Competition (CCDC)** view the **National Collegiate Cyber Defense Competition** website: https://www.nationalccdc.org/
 
 ## Services
-- DNS
-- SMTP 
-- Web Application
-- NTP
-
+- DNS Server
+- SMTP Mail Server
+- HTTP Web Application Server
+- NTP Server
+- Splunk Server
+- SSH Server
+- SSH Client
