@@ -2,7 +2,11 @@
 
 CCDC scripts for Linux OS systems.
 
-### harden.sh - harden.sh automates commands used to improve the security posture of a compromised Linux system.
+### harden.sh 
+
+---
+
+harden.sh automates commands used to improve the security posture of a compromised Linux system.
 
 <details><summary>VIEW MORE</summary>
 
