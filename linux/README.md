@@ -8,9 +8,12 @@ Scripts for Linux OS systems.
 
 ### harden.sh
 
+---
+
 harden.sh automates commands used to improve the security posture of a compromised Linux system.
 
 <details><summary>VIEW MORE</summary>
+
 
 harden.sh preforms the following actions:
 
@@ -19,7 +22,7 @@ harden.sh preforms the following actions:
 - Create a new administrator user
 - Run updates
 - Install packages
-- Set DNS server
+- Set a DNS server
 
 </details>
 
