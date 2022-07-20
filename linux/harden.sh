@@ -23,12 +23,15 @@ create_new_admin() {
     useradd -c "CCDC" -d /ccdc/cyber -G wheel -u 777 ccdc
 }
 
-install_updates() {
+updates() {
     yum -y install update 2> /dev/null
     yum -y install upgrade 2> /dev/null
     yum -y install git 2> /dev/null
-    apt -y install update 2> /dev/null
-    apt -y install upgrade 2> /dev/null
+    apt -y update  2> /dev/null
+    apt -y upgrade 2> /dev/null
+}
+
+install_packages() {
     apt -y install git 2> /dev/null
 }
 
@@ -41,7 +44,8 @@ main() {
     check_root
     remove_chrontab
     set_dns
-    install_updates
+    updates
+    install_packages
     stop_services
     create_new_admin
 
