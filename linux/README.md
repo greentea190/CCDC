@@ -1,10 +1,6 @@
 # Linux README.md
 
-## Scripts
-
----
-
-Scripts for Linux OS systems.
+CCDC scripts for Linux OS systems.
 
 ### harden.sh
 
@@ -13,7 +9,6 @@ Scripts for Linux OS systems.
 harden.sh automates commands used to improve the security posture of a compromised Linux system.
 
 <details><summary>VIEW MORE</summary>
-
 
 harden.sh preforms the following actions:
 
