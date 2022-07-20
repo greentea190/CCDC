@@ -1,7 +1,31 @@
 # Linux README.md
 
+## Scripts
+
+---
+
+Scripts for Linux OS systems.
+
+### harden.sh
+
+harden.sh automates commands used to improve the security posture of a compromised Linux system.
+
+<details><summary>VIEW MORE</summary>
+
+harden.sh preforms the following actions:
+
+- Remove existing chrontab jobs
+- Stop remote administration services (SSH)
+- Create a new administrator user
+- Run updates
+- Install packages
+- Set DNS server
+
+</details>
+
 ### iptables.sh
-________________
+
+---
 
 iptables.sh configures iptables firewall rules for specific services. Below is a list of services iptables.sh configures.
 
@@ -40,4 +64,4 @@ sudo ./iptables.sh
 
 # Credit
 
-Inspired by @thomasfr [thomasfr/iptables.sh](https://gist.github.com/thomasfr/9712418)
+iptables.sh inspired by @thomasfr [thomasfr/iptables.sh](https://gist.github.com/thomasfr/9712418)
