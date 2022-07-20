@@ -17,6 +17,3 @@ For more information about the **Collegiate Cyber Defense Competition (CCDC)** v
 - SSH Server
 - SSH Client
 
-# Credit
-
-Inspired by @thomasfr [thomasfr/iptables.sh](https://gist.github.com/thomasfr/9712418) 
